@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    font-size: 14px;
+    color: #333;
+    font-family:""; 
+    
+}
+
+
+
+
+
+
+
+h1, h1, h3, h4, H5, H6{
+    margin: 0; /*отступы*/
+}
+
+p{
+    margin: 0 0 10px;
+}
+
+*,
+*:before
+*:after{
+    box-sizing: border-box;
+}
+
+
+/*container
+===========================*/
+
+.container{
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+
+
+header.page-header {
+    background: url(../IMG/logo.png) no-repeat left ;
+    display: flex;
+    height: 120px;
+    min-width: 120px;
+    align-items: center;
+    color: rgb(102, 4, 4);
+    text-shadow: rgb(1, 0, 2) 0 0 .2em;
+    justify-content: center;
+}
+
+header.page-header > h1 {
+    font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', cursive, fantasy;
+    margin: 2%;
+}
+
+main {
+    font: 1rem 'Fira Sans', sans-serif;
+    
+}
+
+
+
+nav {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #4682B4;
+}
+
+.crumbs ol {
+    list-style-type: none;
+    padding-left: 1px;
+    text-align: center;
+    
+}
+
+.crumb {
+    display: inline-block;
+    padding: 15px;
+    
+}
+
+
+
+
+.crumb a::after {
+    display: inline-block;
+    color: #000;
+   
+    font-size: 80%;
+    font-weight: bold;
+    padding: 0 3px;
+
+    
+}
+
+
+
+.form_button {
+	padding: 10px 20px;
+	border: none; /* Без границы блока.*/
+	border-radius: 5px; /* Радиус закругления*/
+	font-family: sans-serif;
+	letter-spacing: 1px;
+	font-size: 16xp;
+	color :#fff ; /*Цвет текста*/
+	background-color: #4682B4; /* Цвет фона*/
+	outline: none; /* Внешней границы элемента */
+	cursor: pointer; /* Тип курсора при наведение*/
+	transition: 0.3s; /*  transition позволяет делать плавные переходы между двумя значениями какого-либо CSS свойства*/
+}
+
+.form_button:focus,
+.form_button:hover{
+         background-color: rgba(212, 18, 28, 0.7); /*RGBA Цвет фона и значение прозрачности. */
+}
+
+
+
+a{ 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+} 
+
+
+
+.ocenka{
+    align-items: center;
+    text-indent: 20px;
+    border: 2px solid #111102;
+    padding: 10px 20px 10px 20px;
+    width: 350px; 
+    margin: 40px auto 0 auto; 
+}
+
+.ot{
+    padding: 10px;
+    font-size: 21px;
+}
+
+
+.img{
+    width: 300px;
+    height: 300px;
+    padding: 15px; /* Расстояние от картинки до рамки */
+    margin-right: 20px; /* Отступ справа */
+    margin-bottom: 20px; /* Отступ снизу */
+}
+
+.raz{
+    text-align: center;
+}
+
+.h1{
+    margin: 30px;
+    text-align: center;
+}
+
+
+.p{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.p1{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.ram{
+    border: 1px solid #000;
+    margin: 0 0 20px 0;
+}
+
+
+
+.but {
+    border: 5px solid #4682B4;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 21px;
+    margin: 0 70px 20px;
+    background-color: #4682B4;
+    /*настройка кнопки*/
+}
+
+.but:focus,
+.but:hover{
+    background-color: rgba(212, 18, 28, 0.7); /*RGBA Цвет фона и значение прозрачности. */
+}
